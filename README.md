@@ -7,21 +7,37 @@ If you use this I ask that you keep your alliances with those that are in the ba
 Flags are working!
 
 Attack > place in a room to force your colony to attack that roomnuke > nuke this room
+
 cancel > cancel any ongoing operations in this room
+
 avoid > dont navigate through
+
 ignore > add room as non combat target
+
 observe > send and observer to this room
+
 remove > remove from ignore list
+
 abandon > abandon this room
+
 clear
+
 clean
+
 claim > claim this room with a claimer
+
 rebuild > send pioneers to help with room
+
 robbery > steal from this room
+
 request
+
 guard
+
 harass
+
 hold
+
 denial
 
 TODO:
