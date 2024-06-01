@@ -225,7 +225,11 @@ function shibPath(creep, heading, pathInfo, origin, target, options) {
     let cached;
     pathInfo.pathOptions = options;
     if (!target) return creep.moveRandom();
-    if (options.useCache && !INTEL[creep.room.name].threatLevel && !options.tunnel) cached = getPath(creep, origin, target, pathInfo);
+    try{
+        if (options.useCache && !INTEL[creep.room.name].threatLevel && !options.tunnel) cached = getPath(creep, origin, target, pathInfo);
+    }catch{
+        log.a('module.pathfinder experienced an error...no threatlevel for room ' + creep.room.name + '?')
+    }
     if (cached && options.ignoreCreeps) {
         pathInfo.findAttempt = undefined;
         pathInfo.target = target;

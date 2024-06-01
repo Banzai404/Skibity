@@ -51,7 +51,7 @@ let globals = function () {
         // Harvesters
         stationaryHarvester: 1,
         // Workers
-        upgrader: 2, drone: 2, mineralHarvester: 5, pioneer: 2,
+        upgrader: 1, drone: 2, mineralHarvester: 5, pioneer: 2,
         // Haulers
         hauler: 1, miscHauler: 7,
         // Remotes

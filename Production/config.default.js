@@ -15,6 +15,7 @@ global.PIXEL_FARM = false; // Use this on spawn ins, bot will do nothing but far
 global.PIXEL_BUFFER = 1000; // Sell any pixels above this amount
 global.DESIRED_LOGGING_LEVEL = 4; //Set level 1-5 (5 being most info)
 global.TOWER_FIRST = false; // Set to true to have towers built before spawns
+global.UPGRADER_BASE = 20; // upgraders per room - room level is subtracted from this number for the actual number of upgraders
 
 // Diplomacy
 global.COMBAT_SERVER = []; // Insert the Game.shard.name of servers you'd like to declare everyone hostile
