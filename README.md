@@ -22,7 +22,7 @@ abandon > abandon this room
 
 clear
 
-clean
+clean > clean out barriers and other detrius
 
 claim > claim this room with a claimer
 
